@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "push_to_webpage": "git subtree push --prefix dist github_page gh-pages"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
